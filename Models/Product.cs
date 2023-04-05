@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Entity class.Used to define the scheme of the data
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
