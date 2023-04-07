@@ -171,6 +171,11 @@
     <Content Include="App_Data\comfortWalk_log.ldf">
       <DependentUpon>comfortWalk.mdf</DependentUpon>
     </Content>
+    <Content Include="Catalog\Images\categoryPics\boots.png" />
+    <Content Include="Catalog\Images\categoryPics\casual.png" />
+    <Content Include="Catalog\Images\categoryPics\sport.png" />
+    <Content Include="Catalog\Images\categoryPics\Summers.png" />
+    <Content Include="Catalog\Images\categoryPics\trekking.png" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />

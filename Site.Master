@@ -93,7 +93,7 @@
 
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
-                <div class="bg"></div>  
+                
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
