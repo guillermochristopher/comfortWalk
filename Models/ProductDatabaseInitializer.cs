@@ -6,7 +6,7 @@ using System.Web;
 
 namespace comfortWalk.Models
 {
-    public class ProductDatabaseInitializer : DropCreateDatabaseIfModelChanges<ProductContext>
+    public class ProductDatabaseInitializer : DropCreateDatabaseAlways<ProductContext>
     {
         protected override void Seed(ProductContext context)
         {
