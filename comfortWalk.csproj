@@ -167,6 +167,10 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="App_Data\comfortWalk.mdf" />
+    <Content Include="App_Data\comfortWalk_log.ldf">
+      <DependentUpon>comfortWalk.mdf</DependentUpon>
+    </Content>
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -218,21 +222,21 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="AdidasShoes.png.png" />
-    <Content Include="Shoes pics\Atticus.png.png" />
-    <Content Include="Shoes pics\BIRKENSTOCK.png.png" />
-    <Content Include="Shoes pics\BlueNano.png.png" />
-    <Content Include="Shoes pics\Chelsea Boots.png.png" />
-    <Content Include="Shoes pics\Craft-Arlo-Lace.png.png" />
-    <Content Include="Shoes pics\Crocs.png.png" />
-    <Content Include="Shoes pics\Dr_Marteens.png.png" />
-    <Content Include="Shoes pics\Geox.png.png" />
-    <Content Include="Shoes pics\MountainAction.png.png" />
-    <Content Include="Shoes pics\Nike Air Max 270.png.png" />
-    <Content Include="Shoes pics\Reebok_Nano.png.png" />
-    <Content Include="Shoes pics\Rogue.png.png" />
-    <Content Include="Shoes pics\Salomonadvc.png.png" />
-    <Content Include="Shoes pics\Spherica.png.png" />
-    <Content Include="Shoes pics\Timberland.png.png" />
+    <Content Include="Shoes pics\Atticus.png" />
+    <Content Include="Shoes pics\BIRKENSTOCK.png" />
+    <Content Include="Shoes pics\BlueNano.png" />
+    <Content Include="Shoes pics\Chelsea Boots.png" />
+    <Content Include="Shoes pics\Craft-Arlo-Lace.png" />
+    <Content Include="Shoes pics\Crocs.png" />
+    <Content Include="Shoes pics\Dr_Marteens.png" />
+    <Content Include="Shoes pics\Geox.png" />
+    <Content Include="Shoes pics\MountainAction.png" />
+    <Content Include="Shoes pics\Nike Air Max 270.png" />
+    <Content Include="Shoes pics\Reebok_Nano.png" />
+    <Content Include="Shoes pics\Rogue.png" />
+    <Content Include="Shoes pics\Salomonadvc.png" />
+    <Content Include="Shoes pics\Spherica.png" />
+    <Content Include="Shoes pics\Timberland.png" />
     <Content Include="Site.Master" />
     <Content Include="Styles\myStyle.css" />
     <Content Include="ViewSwitcher.ascx" />
@@ -411,7 +415,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="NewFolder1\" />
   </ItemGroup>
   <ItemGroup>
