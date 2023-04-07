@@ -7,6 +7,8 @@ using System.Web.Security;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Microsoft.AspNet.Identity;
+using System.Linq;
+using comfortWalk.Models;
 
 namespace comfortWalk
 {
@@ -71,7 +73,12 @@ namespace comfortWalk
         {
 
         }
-
+        public IQueryable<Category> GetCategories()
+        {
+            var _db = new comfortWalk.Models.ProductContext();
+            IQueryable<Category> query = _db.Categories;
+            return query;
+        }
         protected void Unnamed_LoggingOut(object sender, LoginCancelEventArgs e)
         {
             Context.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
