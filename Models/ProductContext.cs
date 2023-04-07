@@ -3,11 +3,11 @@
  */
 using comfortWalk.Models;
 using System.Data.Entity;
-namespace comfortWalk
+namespace comfortWalk.Models
 {
     public class ProductContext : DbContext
     {
-        public ProductContext() : base("WingtipToys")
+        public ProductContext() : base("comfortWalk")
         {
         }
         public DbSet<Category> Categories { get; set; }
