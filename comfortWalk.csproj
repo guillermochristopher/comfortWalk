@@ -221,7 +221,7 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
-    <Content Include="AdidasShoes.png.png" />
+    <Content Include="Shoes pics\AdidasShoes.png" />
     <Content Include="Shoes pics\Atticus.png" />
     <Content Include="Shoes pics\BIRKENSTOCK.png" />
     <Content Include="Shoes pics\BlueNano.png" />
