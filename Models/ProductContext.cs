@@ -1,7 +1,6 @@
 ﻿/*This Class (named context class) is used to manage and access the data from 
  * entity classes (Product and Category)
  */
-
 using comfortWalk.Models;
 using System.Data.Entity;
 namespace comfortWalk
