@@ -68,7 +68,7 @@ namespace comfortWalk.Models
                     "This shoe’s leather uppers are sourced from tanneries committed to actively auditing their facilities for water use, energy use, and waste production.",
                     ImagePath="Geox.png",
                     UnitPrice = 108.00,
-                     CategoryID = 1
+                     CategoryID = 2
                },
                 new Product
                 {
@@ -77,7 +77,7 @@ namespace comfortWalk.Models
                     Description = "These waterproof boots let you progress with good support on relatively difficult trails with a moderate to steep slope.",
                     ImagePath="MountainAction.png",
                     UnitPrice = 159.99,
-                    CategoryID = 1
+                    CategoryID = 3
                 },
                 new Product
                 {
@@ -87,7 +87,7 @@ namespace comfortWalk.Models
                     "Sharing the brand's signature DNA with features including grooves on the sides, yellow topstitching and a heel-loop.",
                     ImagePath="Dr_Marteens.png",
                     UnitPrice = 98.00,
-                    CategoryID = 1
+                    CategoryID = 4
                 },
                 new Product
                 {
@@ -97,7 +97,7 @@ namespace comfortWalk.Models
                                   "Over many generations, the Birkenstock company has gathered extensive knowledge in the area of foot health. This knowledge and experience is the foundation of their proven, high quality Birkenstock sandals and shoes.",
                     ImagePath="BIRKENSTOCK.png",
                     UnitPrice = 70.00,
-                    CategoryID = 1
+                    CategoryID = 5
                 },
                 new Product
                 {
@@ -195,7 +195,7 @@ namespace comfortWalk.Models
                     "Thanks to the three adjustable Velcro straps, the model can be optimally adjusted to the foot and thus offers perfect support.",
                     ImagePath="Spherica.png",
                     UnitPrice = 52.95,
-                    CategoryID = 4
+                    CategoryID = 5
                 },
                 new Product
                 {
