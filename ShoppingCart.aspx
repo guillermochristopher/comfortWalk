@@ -33,4 +33,16 @@
         </strong> 
     </div>
     <br />
+
+    <!-- Adding Update and Checkout Buttons to the Shopping Cart -->
+    <table> 
+    <tr>
+      <td>
+        <asp:Button ID="UpdateBtn" runat="server" Text="Update" OnClick="UpdateBtn_Click" />
+      </td>
+      <td>
+        <!--Checkout Placeholder -->
+      </td>
+    </tr>
+    </table>
 </asp:Content>
