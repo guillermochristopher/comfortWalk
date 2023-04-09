@@ -31,7 +31,7 @@
                             <tr>
                                 <td>
                                     <a href="ProductDetails.aspx?productID=<%#:Item.ProductID%>">
-                                        <img src="/Catalog/Images/categoryPics/<%#:Item.ImagePath%>"
+                                        <img src="/Shoes pics/<%#:Item.ImagePath%>"
                                             width="100" height="75" /></a>
                                 </td>
                             </tr>
