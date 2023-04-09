@@ -77,7 +77,7 @@
             </div>
         </div>
    
-                <div id="CategoryMenu" style="text-align: center">       
+        <div id="CategoryMenu" style="text-align: center">       
             <asp:ListView ID="categoryList"  
                 ItemType="comfortWalk.Models.Category" 
                 runat="server"
@@ -99,7 +99,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>&copy; <%: DateTime.Now.Year %> - ComfortWalk is a project just for learning and no commercial purposes </p>
             </footer>
         </div>
     </form>

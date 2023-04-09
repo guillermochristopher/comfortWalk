@@ -246,6 +246,7 @@
     <Content Include="Shoes pics\Timberland.png" />
     <Content Include="ShoppingCart.aspx" />
     <Content Include="Site.Master" />
+    <Content Include="styleJavaScript.js" />
     <Content Include="Styles\myStyle.css" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
