@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ProductDetails.aspx.cs" Inherits="comfortWalk.ProductDetails" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-    <asp:FormView ID="productDetail" runat="server" ItemType="WingtipToys.Models.Product" SelectMethod ="GetProduct" RenderOuterTable="false">
+    <asp:FormView ID="productDetail" runat="server" ItemType="comfortWalk.Models.Product" SelectMethod ="GetProduct" RenderOuterTable="false">
         <ItemTemplate>
             <div>
                 <h1><%#:Item.ProductName %></h1>
@@ -10,7 +10,7 @@
             <table>
                 <tr>
                     <td>
-                        <img src="/Shoe pics<%#:Item.ImagePath %>" style="height:300px" alt="<%#:Item.ProductName %>"/>
+                        <img src="/Shoes pics/<%#:Item.ImagePath %>" style="height:300px" alt="<%#:Item.ProductName %>"/>
                     </td>
                     <td>&nbsp;</td>  
                     <td style="vertical-align: top; text-align:left;">
