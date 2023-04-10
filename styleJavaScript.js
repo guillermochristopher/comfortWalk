@@ -1,17 +1,28 @@
-﻿const carrousel = document.querySelector(".carrousel-items");
-let interval = null;
-let maxScrollLeft = carrousel.scrollWidth - carrousel.clientWidth;
-let step = 1;
-const start = () => {
-    interval = setInterval(function () {
-        carrousel.scrollLeft = carrousel.scrollLeft + step;
-        if (carrousel.scrollLeft === maxScrollLeft) {
-            step = step* -1;
-        } else if (carrousel.scrollLeft === 0) {
-            step = step* -1;
-        }
-    }, 10);
-};
+﻿let slideIndex = 1;
+showSlides(slideIndex);
 
-const stop = () => { };
-start();
+// Next/previous controls
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+}

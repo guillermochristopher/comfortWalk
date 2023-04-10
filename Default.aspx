@@ -1,32 +1,44 @@
 ﻿<%@ Page Title="Welcome Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="comfortWalk._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <link rel="stylesheet" href="Styles/myStyle.css" />
+   <link rel="stylesheet" href="Styles/myStyle.css" />
+   
+    
 
-    <img alt="coverImage" src="cover.jpeg" style="max-width:100%" />
+<div class="slideshow-container">
 
-        <div class="carrousel">
-            <div class="carrousel-items">
-                <div class="carrousel-item">
-                    <img src="Catalog/Images/categoryPics/Summers.png" alt="Summer Shoe Picture" />
-                </div>
-                <div class="carrousel-item">
-                    <img src="Catalog/Images/categoryPics/boots.png" alt="Boots ShoePicture" />
-                </div>
-                <div class="carrousel-item">
-                    <img src="Catalog/Images/categoryPics/sport.png" alt="Sport Shoe Picture" />
-                </div>
-                <div class="carrousel-item">
-                    <img src="Catalog/Images/categoryPics/trekking.png" alt="Trekking Shoe Picture" />
-                </div>
-                <div class="carrousel-item">
-                    <img src="Catalog/Images/categoryPics/casual.png" alt="Casual Shoes picture" />
-                </div>               
-            </div>          
-        </div>
-        
-    <script src="styleJavaScript.js"></script>
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+      <a href="ProductList.aspx"><img src="Catalog/Images/categoryPics/boots3.png" style="width:100%"/></a>
+  </div>
 
-        <h2>“Comfort and fashion in every step”</h2>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+     <a href="ProductList.aspx"><img src="Catalog/Images/categoryPics/sport shoes.png" style="width:100%"/></a>  
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+      <a href="ProductList.aspx"><img src="Catalog/Images/categoryPics/trekkings.png" style="width:100%" /></a>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+   <script src="styleJavaScript.js"></script>
+
+      
 
 </asp:Content>

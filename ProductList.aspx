@@ -1,6 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ProductList.aspx.cs" Inherits="comfortWalk.ProductList" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-
 <section>
         <div>
             <hgroup>
@@ -32,7 +31,7 @@
                                 <td>
                                     <a href="ProductDetails.aspx?productID=<%#:Item.ProductID%>">
                                         <img src="/Shoes pics/<%#:Item.ImagePath%>"
-                                            width="100" height="75" /></a>
+                                            width="200" height="150" /></a>
                                 </td>
                             </tr>
                             <tr>

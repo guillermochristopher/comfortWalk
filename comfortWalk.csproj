@@ -172,11 +172,12 @@
     <Content Include="App_Data\comfortWalk_log.ldf">
       <DependentUpon>comfortWalk.mdf</DependentUpon>
     </Content>
-    <Content Include="Catalog\Images\categoryPics\boots.png" />
+    <Content Include="Catalog\Images\categoryPics\boots3.png" />
     <Content Include="Catalog\Images\categoryPics\casual.png" />
-    <Content Include="Catalog\Images\categoryPics\sport.png" />
+    <Content Include="Catalog\Images\categoryPics\sport shoes.png" />
     <Content Include="Catalog\Images\categoryPics\Summers.png" />
-    <Content Include="Catalog\Images\categoryPics\trekking.png" />
+    <Content Include="Catalog\Images\categoryPics\trekking shoes %281%29.png" />
+    <Content Include="Catalog\Images\categoryPics\trekkings.png" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -197,6 +198,10 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Account\Web.config" />
+    <Content Include="reset\keyframes.scss" />
+    <Content Include="reset\mixins.scss" />
+    <Content Include="reset\reset.scss" />
+    <Content Include="reset\variables.scss" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="ProductDetails.aspx" />
     <Content Include="ProductList.aspx" />
@@ -247,6 +252,7 @@
     <Content Include="ShoppingCart.aspx" />
     <Content Include="Site.Master" />
     <Content Include="styleJavaScript.js" />
+    <Content Include="Styles\app.css" />
     <Content Include="Styles\myStyle.css" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -451,6 +457,7 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+    <Content Include="Styles\StyleSheet1.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
