@@ -198,10 +198,6 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Account\Web.config" />
-    <Content Include="reset\keyframes.scss" />
-    <Content Include="reset\mixins.scss" />
-    <Content Include="reset\reset.scss" />
-    <Content Include="reset\variables.scss" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="ProductDetails.aspx" />
     <Content Include="ProductList.aspx" />
@@ -252,7 +248,6 @@
     <Content Include="ShoppingCart.aspx" />
     <Content Include="Site.Master" />
     <Content Include="styleJavaScript.js" />
-    <Content Include="Styles\app.css" />
     <Content Include="Styles\myStyle.css" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -457,7 +452,6 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
-    <Content Include="Styles\StyleSheet1.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
