@@ -1,26 +1,26 @@
 ﻿<%@ Page Title="Welcome Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="comfortWalk._Default" %>
 
+
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-   <link rel="stylesheet" href="Styles/myStyle.css" />
-   
-    
+   <link rel="stylesheet" href="Styles/myStyle.css" type="text/css" />
+
 
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
+  <div class="mySlides">
+      <div class="numbertext">1 / 3</div>
       <a href="ProductList.aspx"><img src="Catalog/Images/categoryPics/boots3.png" style="width:100%"/></a>
   </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
+  <div class="mySlides">
+     <div class="numbertext">2 / 3</div>
      <a href="ProductList.aspx"><img src="Catalog/Images/categoryPics/sport shoes.png" style="width:100%"/></a>  
   </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-      <a href="ProductList.aspx"><img src="Catalog/Images/categoryPics/trekkings.png" style="width:100%" /></a>
+  <div class="mySlides">
+     <div class="numbertext">3 / 3</div>
+     <a href="ProductList.aspx"><img src="Catalog/Images/categoryPics/trekkings.png" style="width:100%" /></a>
   </div>
 
   <!-- Next and previous buttons -->
@@ -37,7 +37,7 @@
 </div>
 
 
-   <script src="styleJavaScript.js"></script>
+<script src="styleJavaScript.js" type="text/javascript" ></script>
 
       
 
