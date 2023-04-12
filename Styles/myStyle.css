@@ -75,17 +75,3 @@
     }
 
 /* Fading animation */
-.fade {
-    animation-name: fade;
-    animation-duration: 50s;
-}
-
-@keyframes fade {
-    from {
-        opacity: 1
-    }
-
-    to {
-        opacity: 1
-    }
-}
