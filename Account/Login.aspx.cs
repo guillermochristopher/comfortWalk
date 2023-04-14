@@ -38,7 +38,15 @@ namespace comfortWalk.Account
                 switch (result)
                 {
                     case SignInStatus.Success:
+                        //The MigrateCart method associates a newly logged in user with an anonymous shopping cart. 
+                        //By associating the user and shopping cart, the Wingtip Toys sample application will
+                        //be able to maintain the shopping cart of the user between visits.
+
+                        comfortWalk.Logic.ShoppingCartActions usersShoppingCart = new comfortWalk.Logic.ShoppingCartActions();
+                        String cartId = usersShoppingCart.GetCartId();
+                        usersShoppingCart.MigrateCart(cartId, Email.Text);
                         IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
+                     
                         break;
                     case SignInStatus.LockedOut:
                         Response.Redirect("/Account/Lockout");

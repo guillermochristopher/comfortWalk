@@ -13,7 +13,7 @@ namespace comfortWalk
 {
     public partial class Startup {
 
-        // For more information on configuring authentication, please visit https://go.microsoft.com/fwlink/?LinkId=301883
+       
         public void ConfigureAuth(IAppBuilder app)
         {
             // Configure the db context, user manager and signin manager to use a single instance per request
@@ -59,11 +59,11 @@ namespace comfortWalk
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "",
+                ClientSecret = ""
+            });
         }
     }
 }
