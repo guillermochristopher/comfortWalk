@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Xml.Linq;
 
 
 namespace comfortWalk.Logic
@@ -212,6 +213,20 @@ namespace comfortWalk.Logic
             public int ProductId;
             public int PurchaseQuantity;
             public bool RemoveItem;
+        }
+        /*
+        The MigrateCart method uses the existing cartId to find the shopping cart of the user.Next, the code loops through all the 
+            shopping cart items and replaces the CartId property(as specified by the CartItem schema) with the logged-in user name.
+        */
+        public void MigrateCart(string cartId, string userName)
+        {
+            var shoppingCart = _db.ShoppingCartItems.Where(c => c.CartId == cartId);
+            foreach (CartItem item in shoppingCart)
+            {
+                item.CartId = userName;
+            }
+            HttpContext.Current.Session[CartSessionKey] = userName;
+            _db.SaveChanges();
         }
     }
 }
