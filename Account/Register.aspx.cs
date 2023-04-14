@@ -26,6 +26,14 @@ namespace comfortWalk.Account
 
                 signInManager.SignIn( user, isPersistent: false, rememberBrowser: false);
                 IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
+
+                using (comfortWalk.Logic.ShoppingCartActions usersShoppingCart = new comfortWalk.Logic.ShoppingCartActions())
+                {
+
+                    // migrate the shopping cart when the user creates a new account and logs in.
+                    String cartId = usersShoppingCart.GetCartId();
+                    usersShoppingCart.MigrateCart(cartId, user.Id);
+                }
             }
             else 
             {
